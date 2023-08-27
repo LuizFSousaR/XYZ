@@ -1,0 +1,108 @@
+.Prompt {
+    font-family: 'Prompt', sans-serif;
+}
+
+.color01 {
+	color: #722457;
+}
+
+.color02 {
+    color: #69b1af;
+}
+
+.color03 {
+    color: #f5b82c;
+}
+
+.color04 {
+    color: #e14d5f;
+}
+
+.bg-black-20 {
+    background-color: rgba(0, 0, 0, .2)
+}
+
+.bgcolor01 {
+	background-color: #722457;
+}
+
+.bgcolor02 {
+	background-color: #69b1af;
+}
+
+.bgcolor03 {
+	background-color: #f5b82c;
+}
+
+.bgcolor04 {
+	background-color: #e14d5f;
+}
+
+.txt-size01 {
+    font-size: 0.8em;
+}
+
+.txt-size02 {
+    font-size: 0.9em;
+}
+
+.txt-size03 {
+    font-size: 1.1em;
+}
+
+.txt-size04 {
+    font-size: 1.2em;
+}
+
+.txt-size05 {
+    font-size: 1.4em;
+}
+
+.txt-size06 {
+    font-size: 2em;
+}
+
+.txt-size07 {
+    font-size: 3em;
+}
+
+.txt-size08 {
+    font-size: 6em;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-shadow {
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+}
+
+.list-none {
+    list-style-type: none;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.Vh-50 {
+    height: 50vh;
+}
+
+.Vh-100 {
+    height: 100vh;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+/* Menus */
+.logotipo {
+    font-weight: 800;
+}
+
+.nav-link {
+    padding: 4px 8px!important;
+}

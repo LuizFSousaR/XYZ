@@ -106,3 +106,23 @@
 .nav-link {
     padding: 4px 8px!important;
 }
+
+
+/* teste2 */
+#teste2 {
+    background-image: url("Imagens/");
+    background-color: #cccccc;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* footer */
+.icon-media {
+    color: white;
+    transition: all 0.3 ease-in;
+}
+
+.icon-media:hover {
+    color: #f5b82c;
+}

@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="CSS/SAFirefoxMediaQuery.css" type="text/css">
 </head>
 
-<body>
-    <section id="Inicio" class="w-100 bgcolor01 d-block p-2">
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="64">
+    <section id="Menu" class="w-100 bgcolor01 d-block p-2">
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
@@ -29,7 +29,34 @@
                 </div>
                 <div class="col-6 col-sm-6 col-md-9 col-lg-9 col-xl-9 col-xxl-9">
                     <div class="w-100 d-flex justify-content-end">
-                        <ul class="list-none list-group list-group-horizontal border-0 p-0 mb-0 mt-2">
+                        <nav class="navbar navbar-expand-md navbar-dark">
+                            <!-- BTN responsivo -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <!-- Links -->
+                            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                                <ul class="w-100 navbar-nav justify-content-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link Prompt mx-1" href="Inicio">Início</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link Prompt mx-1" href="#Produto">Produto</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link Prompt mx-1" href="#Detalhes">Detalhes</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link Prompt mx-1" href="#compreAgora">Compre agora</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link Prompt mx-1" href="#GridRevenda">Revendedores</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- <ul class="list-none list-group list-group-horizontal border-0 p-0 mb-0 mt-2">
                             <li>
                                 <a href="" class="Prompt color03 decoration-none me-5" target="_blank">
                                     <i class='fas fa-envelope me-2 color04'></i>xyzatendimento@xyzmail.com
@@ -40,97 +67,25 @@
                                     <i class='fas fa-phone me-2 color04'></i>+55(21)999-564-724
                                 </a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
+
+                    
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="Menu" class="w-100 bgcolor02">
-        <div class="container">
+    <section id="Inicio" class="w-100 d-block bgcolor01">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <nav class="navbar navbar-expand-md navbar-dark">
-                        <!-- BTN responsivo -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                      
-                        <!-- Links -->
-                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                            <ul class="w-100 navbar-nav justify-content-center">
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="IndexXYZ.html">Início</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="#Equipe">Nossa equipe</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="#Servicos">Serviços</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="#Clientes">Clientes</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="#PorqueNos">Porque Nós</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link Prompt mx-1" href="#Unidades">Unidades</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="Banner" class="w-100 d-block bgcolor01">
-        <div id="Carousel" class="carousel slide" data-bs-ride="carousel">
-            <!-- The slideshow/carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="container-fluid" style="padding-left:0px;padding-right:0px;">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <div class="w-100 d-block p-5" id="carrousel01">
-                                    <img src="Imagens/SPECNAARMS20.png" class="w-25 d-block img-fluid mx-auto" alt="Specna Arms Logotipo">
-                                    <p class="Prompt color03 text-center txt-size03 mt-5">A família cresceu! Specna Arms apresenta seu novo modelo de rifle de airsoft da plataforma M4.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>      
-                </div>
-                <div class="carousel-item">
-                    <div class="container-fluid" style="padding-left:0px;padding-right:0px;">
-                        <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <div class="w-100 d-flex justify-content-center align-items-center p-5" id="carrousel02">
-                                    <div class="w-100 d-flex flex-column p-3" id="carrousel02">
-                                        <h2 class="Mohave color02 text-center txt-size07 mb-4">SA EDGE FIREFOX 2.0</h2>
-                                        <a href="#" class="btn btn-outline-dark btn-lg decoration-none text-uppercase mx-auto">Comprar agora</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="w-100 d-block p-5" id="carrousel01">
+                        <img src="Imagens/SPECNAARMS20.png" class="w-25 d-block img-fluid mx-auto" alt="Specna Arms Logotipo">
+                        <p class="Prompt color03 text-center txt-size03 mt-5">A família cresceu! Specna Arms apresenta seu novo modelo de rifle de airsoft da plataforma M4.</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Indicators/dots -->
-            <div class="carousel-indicators mt-3">
-                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#Carousel" data-bs-slide-to="1" class=""></button>
-            </div>
-            
-            <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#Carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon color06"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#Carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon color06"></span>
-            </button>
         </div>
     </section>
 
@@ -146,13 +101,13 @@
         </div>
     </section>
 
-    <section id="Preco" class="w-100 d-block bgcolor04 p-5">
+    <section id="Produto" class="w-100 d-block bgcolor04 p-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <div class="w-75 d-block">
-                        <h1 class="Mohave color04 text-start text-uppercase font-bold txt-size08 text-shadow">SA edge firefox 2.0</h1>
-                        <h2 class="Mohave color03 text-start text-uppercase txt-size07">R$ 3000.00</h2>
+                        <h1 class="Mohave color04 text-start text-uppercase font-bold txt-size07 text-shadow">SA edge firefox 2.0</h1>
+                        <h2 class="Mohave color03 text-start text-uppercase txt-size08 text-shadow">R$ 2.299,99</h2>
                         <a href="#" class="btn btn-outline-light btn-lg color03 decoration-none uppercase mx-auto">Comprar agora</a>
                     </div>
                 </div>
@@ -160,11 +115,11 @@
         </div>
     </section>
 
-    <section id="infoTecnicas" class="w-100 d-block p-5">
+    <section id="Detalhes" class="w-100 d-block p-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <h1 class="Mohave color02 text-center text-uppercase font-bold txt-size08 text-shadow">Especificações</h1>
+                    <h1 class="Mohave color02 text-center text-uppercase font-bold txt-size07 text-shadow mb-5">Especificações</h1>
                 </div>
             </div>
             <div class="row">
@@ -206,9 +161,22 @@
                 </div>
             </div>
         </div>
+    </section>  
+
+    <section id="compreAgora" class="w-100 d-block bgcolor02 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <div class="w-100 d-flex flex-column align-content-center justify-content-center"  id="grid01">
+                        <h1 class="Mohave color03 text-center uppercase font-bold txt-size07">Compre já</h1>
+                        <a href="#" class="btn btn-outline-light btn-lg color03 decoration-none text-uppercase mx-auto">Comprar agora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="Grid" class="w-100 d-block p-5">
+    <section id="GridRevenda" class="w-100 d-block p-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -240,73 +208,26 @@
         </div>
     </section>
 
-    <section id="nunsei" class="w-100 d-block bgcolor02 p-5">
+    <footer id="Footer" class="w-100 d-block bgcolor02 p-2">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="w-100 d-flex flex-column align-content-center justify-content-center"  id="grid01">
-                        <h1 class="Mohave color03 text-center uppercase font-bold txt-size06">num sei</h1>
-                        <a href="#" class="btn btn-outline-light btn-lg color03 decoration-none text-uppercase mx-auto">Comprar agora</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="inscricao" class="w-100 d-block bg-light p-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div class="w-50 d-block mx-auto">
-                        <h2 class="Mohave color01 text-start font-bold txt-size06">Junte-se a comunidade Specna Arms</h2>
-                        <p class="Prompt color01 text-start txt-size03 mb-3">Fique por dentro de todas as novidades e promoções.</p>
-                        <div class="w-100 d-block py-2">
-                            <div class="input-group">
-                                <input type="email" class="form-control" id="usermail" name="Usermail" placeholder="Digite seu e-mail aqui." required>
-                                <div class="valid-feedback">Valid.</div>
-                                <div class="invalid-feedback">Please fill out this field.</div>
-                                <button type="submit" class="btn btn-warning btn-lg color01 decoration-none text-uppercase">Inscrever</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="Footer" class="w-100 d-block bgcolor02 p-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <ul class="list-none list-group list-group-horizontal border-0 p-0 mb-0">
-                        <li>
-                            <a href="" class="footer-link Prompt color03 txt-size03 uppercase decoration-none me-4" target="_blank">blog</a>
-                        </li>
-                        <li>
-                            <a href="" class="footer-link Prompt color03 txt-size03 uppercase decoration-none me-4" target="_blank">explore</a>
-                        </li>
-                        <li>
-                            <a href="" class="footer-link Prompt color03 txt-size03 uppercase decoration-none me-4" target="_blank">know more</a>
-                        </li>
-                        <li>
-                            <a href="" class="footer-link Prompt color03 txt-size03 uppercase decoration-none me-4" target="_blank">about</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <hr style="color: white;">
             <div class="row">
                 <div class="col-8 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <p class="Prompt text-start text-white txt-size02 mb-0">Feito por &copy Luiz Fernando Rodrigues. Todos os direitos reservados.</p>
+                    <p class="Prompt text-start text-white txt-size02 mb-0">Feito por &copy Luiz Fernando Rodrigues.</p>
                 </div>
                 <div class="col-4 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <div class="w-100 d-flex justify-content-end">
                         <ul class="list-none list-group list-group-horizontal  border-0 p-0 mb-0">
                             <li>
-                                <a href="" class="footer-link decoration-none me-4" target="_blank"><i class='fab fa-facebook icon-media txt-size05'></i></a>
+                                <a href="" class="footer-link decoration-none me-2" target="_blank"><i class='fab fa-facebook icon-media txt-size05'></i></a>
                             </li>
                             <li>
-                                <a href="" class="footer-link decoration-none" target="_blank"><i class='fab fa-instagram icon-media txt-size05'></i></a>
+                                <a href="" class="footer-link decoration-none mx-2" target="_blank"><i class='fab fa-instagram icon-media txt-size05'></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="footer-link decoration-none mx-2" target="_blank"><i class='fab fa-twitter icon-media txt-size05'></i></a>
+                            </li>
+                            <li>
+                                <a href="" class="footer-link decoration-none ms-2" target="_blank"><i class='fab fa-youtube icon-media txt-size05'></i></a>
                             </li>
                         </ul>
                     </div>

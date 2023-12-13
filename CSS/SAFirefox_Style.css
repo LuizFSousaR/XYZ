@@ -107,10 +107,14 @@
 }
 
 .text-shadow {
-
+    text-shadow: 2px 2px 8px #000000;
 }
 
-/* Menus */
+/* Menu */
+#Menu {
+    height: auto;
+}
+
 #logotipo-nav {
     width: 140px;
     height: auto;
@@ -120,24 +124,9 @@
     padding: 4px 8px!important;
 }
 
-/* Banner */
-#Banner {
-    height: 100%;
-    height: 500px;
-    max-height: 500px;
-}
-
+/* Inicio */
 #carrousel01 {
     background-image: url("../Imagens/SABanner01.jpg");
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
-    max-height: 500px;
-}
-
-#carrousel02 {
-    background-image: url("../Imagens/SABanner02.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -154,18 +143,19 @@
     background-position: left top;
 }
 
-/* Preço */
-#Preco {
+/* Produto */
+#Produto {
     background-image: url("../Imagens/ImgPreco.jpg");
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    max-height: 500px;
     width: 100%;
 }
 
 /* Informações técnicas */
-#infoTecnicas {
+#Detalhes {
     background-image: url("../Imagens/");
     background-clip: border-box;
     background-repeat: no-repeat;
@@ -212,13 +202,14 @@
 }
 
 /* nao sei ainda */
-#nunsei {
-    width: 100%;
-    height: 300px;
+#compreAgora {
     background-image: url("../Imagens/");
     background-clip: border-box;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    height: 250px;
+    min-height: 100px;
+    width: 100%;
 }
 
 /* footer */

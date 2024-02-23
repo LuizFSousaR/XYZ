@@ -42,6 +42,18 @@
 	background-color: #f49f22;
 }
 
+.bg-dark-20 {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.bg-dark-50 {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.bg-dark-70 {
+	background-color: rgba(0, 0, 0, .7);
+}
+
 .txt-size01 {
     font-size: 0.8em;
 }
@@ -167,6 +179,17 @@
     max-height: 340px;
 }
 
+/* BTN Call to Action */
+#compreAgora {
+    background-image: url("../Imagens/CompreJa_Img.jpg");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 250px;
+    width: 100%;
+}
+
 /* Grid */
 .grid-container {
     display: grid;
@@ -201,15 +224,47 @@
     background-size: cover;
 }
 
-/* nao sei ainda */
-#compreAgora {
-    background-image: url("../Imagens/");
-    background-clip: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 250px;
-    min-height: 100px;
+/* separa */
+.container-hover {
     width: 100%;
+    height: 100%;
+    min-height: 350px;
+    background-color: #16151b;
+}
+
+.container-hover:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    transition: all 0.3s ease;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.overlayFade {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+
+.container-hover:hover .overlayFade {
+    height: 100%;
+}
+
+/* Buttons */
+.btn-outline-01 {
+    color: #e7e7e7;
+    background-color: transparent;
+    border: 2px solid #e7e7e7;
+}
+
+.btn-outline-01:hover {
+    color: #111015;
+    background-color: #f49f22;
+    border: 2px solid #c98219;
 }
 
 /* footer */

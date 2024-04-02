@@ -146,6 +146,10 @@
     max-height: 500px;
 }
 
+#textoInicio {
+    width: 50%;
+}
+
 /* Frase de efeito */
 #fraseEfeito {
     background-image: url("../Imagens/SA_pattern.jpg");
